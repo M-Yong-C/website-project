@@ -1,0 +1,261 @@
+/* Init */
+@font-face {
+  font-family: robotolight;
+  src: url(/font/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: robotosemibold;
+  src: url(font/Roboto-SemiBold.ttf);
+}
+
+* {
+  font-family: robotolight;
+  background-color: beige;
+}
+
+/* Header */
+header {
+  display: flex;
+  background-color: #2c2d2d;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #2c2d2d;
+  width: 100%;
+}
+.pheader {
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #2c2d2d;
+  padding: 1%;
+}
+
+.pbigheader {
+  color: #ffffff;
+  font-size: 24px;
+  background-color: #2c2d2d;
+}
+
+.divheader {
+  background-color: #2c2d2d;
+  width: 40%;
+  display: flex;
+  justify-content: start;
+}
+
+.button-container {
+  display: flex;
+  background-color: #2c2d2d;
+  width: 50%;
+  justify-content: end;
+}
+
+.headerlink {
+  color: #ffffff;
+  background-color: #2c2d2d;
+  text-decoration: none;
+}
+
+.headerlink:hover {
+  background-color: beige;
+  color: #2c2d2d;
+}
+
+/* Main */
+
+h1 {
+  text-align: center;
+  font-size: 42px;
+  color: #2c2d2d;
+}
+
+main {
+  padding: 5px 0 100x 0;
+  background-color: beige;
+}
+
+#intro {
+  font-size: 54px;
+  font-family: robotosemibold;
+}
+
+.container-container {
+  display: flex;
+}
+
+#intro-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 60%;
+  background-color: rgb(211, 211, 143);
+  border-radius: 25%;
+}
+
+#intro-button:hover {
+  border-radius: 50%;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+
+.intro-button-name {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  font-size: 28px;
+  padding: 10px;
+  border-left: solid 3px black;
+  border-right: solid 3px black;
+  text-align: center;
+}
+
+.intro-button-name:hover {
+  transform: scale(1.2);
+  transition-duration: 3s;
+  transition-timing-function: linear;
+}
+
+#intro-container-left {
+  padding-left: 5%;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  flex-direction: column;
+}
+
+#intro-container-right {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  border-radius: 15% 70% 40% 70%;
+  overflow: hidden;
+}
+
+.img-fill {
+  object-fit: fill;
+  width: 100%;
+}
+
+.img-cover {
+  object-fit: cover;
+  width: 100%;
+}
+
+.intro-button-name {
+  background-color: rgb(211, 211, 143);
+}
+
+#intro-description {
+  font-size: 36px;
+  width: 70%;
+}
+
+.intro-link {
+  color: black;
+  text-decoration: none;
+  background-color: rgb(211, 211, 143);
+}
+
+.shop-container-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.column {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid green;
+  border-radius: 0% 0% 25% 25%;
+}
+
+.shop-img-container {
+  display: block;
+  width: 500px;
+  height: 325px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.shop-button-container {
+  padding-top: 10px;
+  display: block;
+  width: 150px;
+  height: 50px;
+  overflow: hidden;
+  border: solid 5px #2c2d2d;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #2c2d2d;
+  border-radius: 20%;
+}
+
+.shop-button-container:hover {
+  transform: scale(1.2);
+  transition-duration: 3s;
+  transition-timing-function: linear;
+}
+
+.shop-description {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: robotosemibold;
+}
+
+/* Footer */
+
+.media-link {
+  display: block;
+  border: none;
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+  min-height: 32px;
+  min-width: 32px;
+  margin: 5px;
+  text-decoration: none;
+  box-shadow: 0 2px 4px darkslategray;
+}
+
+footer {
+  margin-top: 50px;
+  height: auto;
+  background-color: #2c2d2d;
+}
+
+.media-link-container {
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: #2c2d2d;
+}
+
+.instagram {
+  background: #f56040;
+  color: white;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.twitter {
+  background: #55acee;
+  color: white;
+}
