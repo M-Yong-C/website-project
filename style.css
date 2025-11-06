@@ -69,7 +69,7 @@ nav {
 h1 {
   text-align: center;
   font-size: 42px;
-  color: #2c2d2d;
+  color: black;
 }
 
 main {
@@ -197,7 +197,7 @@ main {
   text-align: center;
   justify-content: center;
   text-decoration: none;
-  color: #2c2d2d;
+  color: black;
   border-radius: 20%;
 }
 
