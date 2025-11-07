@@ -136,8 +136,9 @@ main {
 }
 
 .img-fill {
-  object-fit: fill;
+  /* object-fit: fill; */
   width: 100%;
+  height: 100%;
 }
 
 .img-cover {
@@ -169,8 +170,9 @@ main {
 }
 
 .column {
-  width: 500px;
-  margin: auto;
+  width: 30%;
+  height: 300px;
+  /* margin: auto; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -179,17 +181,17 @@ main {
 }
 
 .shop-img-container {
-  display: block;
-  width: 500px;
-  height: 325px;
-  overflow: hidden;
-  margin: auto;
+  /* display: block; */
+  width: 30%;
+  /* height: 20%; */
+  /* overflow: hidden; */
+  /* margin: auto; */
 }
 
 .shop-button-container {
   padding-top: 10px;
   display: block;
-  width: 150px;
+  width: 20%;
   height: 50px;
   overflow: hidden;
   border: solid 5px #2c2d2d;
@@ -258,4 +260,12 @@ footer {
 .twitter {
   background: #55acee;
   color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .shop-container-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
